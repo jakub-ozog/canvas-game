@@ -47,11 +47,11 @@ window.addEventListener('load', () => {
         ctx.beginPath();
         ctx.moveTo(e.clientX, e.clientY);
     }
-
     //event listeners
     canvas.addEventListener("mousedown", startPosition);
     canvas.addEventListener("mouseup", finishedPosition);
     canvas.addEventListener("mousemove", draw);
+
 
 
 });
